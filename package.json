@@ -1,0 +1,25 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "Webpack Template sass, babel, jshint, server, prefixer",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "prod": "SET NODE_ENV=production&& webpack"
+  },
+  "author": "Łukasz Kosmaty",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.1",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
