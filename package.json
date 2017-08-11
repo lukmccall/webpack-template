@@ -4,7 +4,7 @@
   "description": "Webpack Template sass, babel, jshint, server, prefixer",
   "scripts": {
     "dev": "webpack-dev-server",
-    "prod": "SET NODE_ENV=production&& webpack"
+    "prod": "SET NODE_ENV=production&& webpack -p"
   },
   "author": "Łukasz Kosmaty",
   "devDependencies": {
